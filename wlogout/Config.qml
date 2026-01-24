@@ -19,6 +19,11 @@ QtObject {
             keybind: "S"
         },
         LogoutEntry {
+            icon: "./reboot.svg"
+            command: ["reboot"]
+            keybind: "R"
+        },
+        LogoutEntry {
             icon: "./lock.svg"
             command: ["hyprlock"]
             keybind: "L"
